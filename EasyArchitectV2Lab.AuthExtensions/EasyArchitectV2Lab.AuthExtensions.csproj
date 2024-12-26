@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Gelis</Authors>
+    <Version>8.0.0</Version>
+    <Description>EasyArchitect V2 的使用者驗證與授權相關服務 (套件專案)</Description>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="8.0.8" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.6.1" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\EasyArchitectV2Lab.Configuration\EasyArchitectV2Lab.Configuration.csproj" />
+  </ItemGroup>
+
+</Project>

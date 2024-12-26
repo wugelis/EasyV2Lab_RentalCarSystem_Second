@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EasyArchitectV2Lab.ApiControllerBase\EasyArchitectV2Lab.ApiControllerBase.csproj" />
+    <ProjectReference Include="..\EasyArchitectV2Lab.AuthExtensions\EasyArchitectV2Lab.AuthExtensions.csproj" />
+    <ProjectReference Include="..\EasyArchitectV2Lab.JWTMiddleware\EasyArchitectV2Lab.JWTMiddleware.csproj" />
+    <ProjectReference Include="..\RentalCar.Application\RentalCar.Application.csproj" />
+    <ProjectReference Include="..\RentalCar.Infrastructure\RentalCar.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
