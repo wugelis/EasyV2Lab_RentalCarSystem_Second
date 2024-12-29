@@ -23,17 +23,22 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RentalCar.Application", "Re
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB", "DB", "{447A7090-0E3A-42AC-9623-CDDC52C624F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentalCar.Infrastructure", "RentalCar.Infrastructure\RentalCar.Infrastructure.csproj", "{02A828DB-6083-43C4-8630-E8AE4FFF8C83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RentalCar.Infrastructure", "RentalCar.Infrastructure\RentalCar.Infrastructure.csproj", "{02A828DB-6083-43C4-8630-E8AE4FFF8C83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentalCar.Web", "RentalCar.Web\RentalCar.Web.csproj", "{E73FC9CB-F920-4EC0-B162-B0FEE10E912D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RentalCar.Web", "RentalCar.Web\RentalCar.Web.csproj", "{E73FC9CB-F920-4EC0-B162-B0FEE10E912D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyArchitectV2Lab.ApiControllerBase", "EasyArchitectV2Lab.ApiControllerBase\EasyArchitectV2Lab.ApiControllerBase.csproj", "{E261A4A0-445F-4BDC-AA46-D3D69FE24881}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyArchitectV2Lab.ApiControllerBase", "EasyArchitectV2Lab.ApiControllerBase\EasyArchitectV2Lab.ApiControllerBase.csproj", "{E261A4A0-445F-4BDC-AA46-D3D69FE24881}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyArchitectV2Lab.AuthExtensions", "EasyArchitectV2Lab.AuthExtensions\EasyArchitectV2Lab.AuthExtensions.csproj", "{A222F68E-37D5-4455-98E5-1565E0311ED7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyArchitectV2Lab.AuthExtensions", "EasyArchitectV2Lab.AuthExtensions\EasyArchitectV2Lab.AuthExtensions.csproj", "{A222F68E-37D5-4455-98E5-1565E0311ED7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyArchitectV2Lab.JWTMiddleware", "EasyArchitectV2Lab.JWTMiddleware\EasyArchitectV2Lab.JWTMiddleware.csproj", "{BE667B1B-93FD-4B15-93A6-29BA5FD029BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyArchitectV2Lab.JWTMiddleware", "EasyArchitectV2Lab.JWTMiddleware\EasyArchitectV2Lab.JWTMiddleware.csproj", "{BE667B1B-93FD-4B15-93A6-29BA5FD029BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyArchitectV2Lab.Configuration", "EasyArchitectV2Lab.Configuration\EasyArchitectV2Lab.Configuration.csproj", "{53330DE4-3D75-4264-A5F6-B1647D834FBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyArchitectV2Lab.Configuration", "EasyArchitectV2Lab.Configuration\EasyArchitectV2Lab.Configuration.csproj", "{53330DE4-3D75-4264-A5F6-B1647D834FBF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "方案項目", "方案項目", "{A9C4B12B-4E33-42FD-846D-D89A863D0BF8}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
