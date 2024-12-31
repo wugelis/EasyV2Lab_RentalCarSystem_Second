@@ -85,6 +85,15 @@ namespace EasyArchitectV2Lab.AuthExtensions.Services
 
         public User? GetByUsername(string username)
         {
+            User? result = new User()
+            {
+                Id = 1,
+                Username = username
+            };
+
+            return result;
+
+            /*
             return _accountEnts
                 .Where(x => x.UserID == username)
                 .Select(c => new User()
@@ -93,6 +102,7 @@ namespace EasyArchitectV2Lab.AuthExtensions.Services
                     Username = c.UserID
                 })
                 .FirstOrDefault();
+            */
         }
 
         /// <summary>
